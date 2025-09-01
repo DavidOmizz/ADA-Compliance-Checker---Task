@@ -1,0 +1,16 @@
+.env
+.venv
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+
+package-lock.json
+node_modules/
+
+node_modules/

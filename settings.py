@@ -1,0 +1,9 @@
+# settings.py
+
+INSTALLED_APPS = [
+    # ...existing code...
+    'rest_framework',
+    # ...existing code...
+]
+
+# ...existing code...
