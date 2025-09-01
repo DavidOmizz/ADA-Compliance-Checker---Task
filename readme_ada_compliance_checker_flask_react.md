@@ -113,6 +113,24 @@ This avoids CORS hassles during development.
 
 ---
 
+
+## Innovative Features
+
+This project goes beyond the base requirements with the following enhancements:
+
+1. **Interactive Element Highlighting** – Clicking an issue scrolls to and outlines the offending element in the live preview.  
+   *Code: `frontend/src/App.jsx`, `highlight()` function.*
+
+2. **Advanced Contrast Ratio Check** – WCAG-compliant luminance/contrast calculation with different thresholds for headings vs body text, and support for hex, `rgb()`, and CSS named colors.  
+   *Code: `backend/utils.py`.*
+
+3. **File Upload Support** – Users can paste HTML or upload `.html` files for checking.  
+   *Code: `frontend/src/App.jsx`, `handleFileUpload`.*
+
+4. **Proxy-based Dev Setup** – React proxy to Flask backend simplifies development and avoids CORS hassles.  
+   *Config: `frontend/package.json`.*
+
+
 ## Credits
 Built for a take‑home assessment. Backend: Flask + BeautifulSoup + webcolors. Frontend: React + Material‑UI.
 
